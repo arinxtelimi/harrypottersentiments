@@ -26,6 +26,13 @@ Interactive Shiny application that performs sentiment analysis and word trend tr
 - `afinn.csv`: AFINN lexicon for sentiment scoring (words rated -5 to +5)
 
 ## How to Run
-Ensure required R packages are installed:
+  - Ensure required R packages are installed:
 ```R
 install.packages(c("shiny", "tidyverse", "tidytext", "DT", "plotly"))
+```
+  - Place all files in the same directory
+  - Run the app
+```R
+shiny::runApp("harrypotterbooks.R")
+```
+
